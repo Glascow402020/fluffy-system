@@ -120,3 +120,121 @@
 [20Mar2025 19:42:25.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sebaguilaaa joined the game
 [20Mar2025 19:42:52.404] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: sebaguilaaa lost connection: Disconnected
 [20Mar2025 19:42:52.405] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sebaguilaaa left the game
+[20Mar2025 19:48:14.461] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-common.toml of type COMMON for modid forge
+[20Mar2025 19:48:14.461] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:143)
+[20Mar2025 19:48:14.462] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[20Mar2025 19:48:14.462] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: Caused by: com.electronwill.nightconfig.core.io.ParsingException: Not enough data available
+[20Mar2025 19:48:14.462] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ParsingException.notEnoughData(ParsingException.java:22)
+[20Mar2025 19:48:14.462] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ReaderInput.directReadChar(ReaderInput.java:36)
+[20Mar2025 19:48:14.463] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.AbstractInput.readChar(AbstractInput.java:49)
+[20Mar2025 19:48:14.463] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.AbstractInput.readCharsUntil(AbstractInput.java:123)
+[20Mar2025 19:48:14.463] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseKey(TableParser.java:166)
+[20Mar2025 19:48:14.463] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseDottedKey(TableParser.java:145)
+[20Mar2025 19:48:14.463] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:55)
+[20Mar2025 19:48:14.464] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:101)
+[20Mar2025 19:48:14.464] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88)
+[20Mar2025 19:48:14.464] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[20Mar2025 19:48:14.464] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[20Mar2025 19:48:14.464] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[20Mar2025 19:48:14.465] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[20Mar2025 19:48:14.465] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[20Mar2025 19:48:14.465] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85)
+[20Mar2025 19:48:14.465] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:132)
+[20Mar2025 19:48:14.465] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	... 1 more
+[20Mar2025 19:48:14.466] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-common.toml of type COMMON for modid forge
+[20Mar2025 19:48:14.466] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:143)
+[20Mar2025 19:48:14.466] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[20Mar2025 19:48:14.466] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: Caused by: com.electronwill.nightconfig.core.io.ParsingException: Not enough data available
+[20Mar2025 19:48:14.467] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ParsingException.notEnoughData(ParsingException.java:22)
+[20Mar2025 19:48:14.467] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ReaderInput.directReadChar(ReaderInput.java:36)
+[20Mar2025 19:48:14.467] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.AbstractInput.readChar(AbstractInput.java:49)
+[20Mar2025 19:48:14.467] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.AbstractInput.readCharsUntil(AbstractInput.java:123)
+[20Mar2025 19:48:14.467] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseKey(TableParser.java:166)
+[20Mar2025 19:48:14.468] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseDottedKey(TableParser.java:145)
+[20Mar2025 19:48:14.468] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:55)
+[20Mar2025 19:48:14.468] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:101)
+[20Mar2025 19:48:14.468] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88)
+[20Mar2025 19:48:14.468] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[20Mar2025 19:48:14.469] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[20Mar2025 19:48:14.469] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[20Mar2025 19:48:14.469] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[20Mar2025 19:48:14.469] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[20Mar2025 19:48:14.469] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85)
+[20Mar2025 19:48:14.469] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:132)
+[20Mar2025 19:48:14.470] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	... 1 more
+[20Mar2025 19:48:17.023] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-common.toml of type COMMON for modid forge
+[20Mar2025 19:48:17.023] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:143)
+[20Mar2025 19:48:17.023] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[20Mar2025 19:48:17.023] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: Caused by: com.electronwill.nightconfig.core.io.ParsingException: Not enough data available
+[20Mar2025 19:48:17.024] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ParsingException.notEnoughData(ParsingException.java:22)
+[20Mar2025 19:48:17.024] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ReaderInput.directReadChar(ReaderInput.java:36)
+[20Mar2025 19:48:17.024] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.AbstractInput.readChar(AbstractInput.java:49)
+[20Mar2025 19:48:17.024] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.AbstractInput.readCharsUntil(AbstractInput.java:123)
+[20Mar2025 19:48:17.024] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseKey(TableParser.java:166)
+[20Mar2025 19:48:17.025] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseDottedKey(TableParser.java:145)
+[20Mar2025 19:48:17.025] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:55)
+[20Mar2025 19:48:17.025] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:101)
+[20Mar2025 19:48:17.025] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88)
+[20Mar2025 19:48:17.025] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[20Mar2025 19:48:17.026] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[20Mar2025 19:48:17.026] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[20Mar2025 19:48:17.026] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[20Mar2025 19:48:17.026] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[20Mar2025 19:48:17.026] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85)
+[20Mar2025 19:48:17.026] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:132)
+[20Mar2025 19:48:17.027] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	... 1 more
+[20Mar2025 19:48:17.027] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-common.toml of type COMMON for modid forge
+[20Mar2025 19:48:17.027] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:143)
+[20Mar2025 19:48:17.027] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[20Mar2025 19:48:17.028] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: Caused by: com.electronwill.nightconfig.core.io.ParsingException: Not enough data available
+[20Mar2025 19:48:17.028] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ParsingException.notEnoughData(ParsingException.java:22)
+[20Mar2025 19:48:17.028] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ReaderInput.directReadChar(ReaderInput.java:36)
+[20Mar2025 19:48:17.028] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.AbstractInput.readChar(AbstractInput.java:49)
+[20Mar2025 19:48:17.028] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.AbstractInput.readCharsUntil(AbstractInput.java:123)
+[20Mar2025 19:48:17.029] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseKey(TableParser.java:166)
+[20Mar2025 19:48:17.029] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseDottedKey(TableParser.java:145)
+[20Mar2025 19:48:17.029] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:55)
+[20Mar2025 19:48:17.029] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:101)
+[20Mar2025 19:48:17.029] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88)
+[20Mar2025 19:48:17.030] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[20Mar2025 19:48:17.030] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[20Mar2025 19:48:17.030] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[20Mar2025 19:48:17.030] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[20Mar2025 19:48:17.030] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[20Mar2025 19:48:17.031] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85)
+[20Mar2025 19:48:17.031] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:132)
+[20Mar2025 19:48:17.031] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	... 1 more
+[20Mar2025 19:48:19.650] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-common.toml of type COMMON for modid forge
+[20Mar2025 19:48:19.651] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:143)
+[20Mar2025 19:48:19.651] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[20Mar2025 19:48:19.651] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: Caused by: com.electronwill.nightconfig.core.io.ParsingException: Invalid character '
+' after key [default]
+[20Mar2025 19:48:19.651] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseDottedKey(TableParser.java:152)
+[20Mar2025 19:48:19.651] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:55)
+[20Mar2025 19:48:19.652] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:101)
+[20Mar2025 19:48:19.652] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88)
+[20Mar2025 19:48:19.652] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[20Mar2025 19:48:19.652] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[20Mar2025 19:48:19.652] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[20Mar2025 19:48:19.652] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[20Mar2025 19:48:19.652] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[20Mar2025 19:48:19.653] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85)
+[20Mar2025 19:48:19.653] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:132)
+[20Mar2025 19:48:19.653] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	... 1 more
+[20Mar2025 19:48:19.653] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-common.toml of type COMMON for modid forge
+[20Mar2025 19:48:19.654] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:143)
+[20Mar2025 19:48:19.654] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[20Mar2025 19:48:19.654] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: Caused by: com.electronwill.nightconfig.core.io.ParsingException: Invalid character '
+' after key [default]
+[20Mar2025 19:48:19.654] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseDottedKey(TableParser.java:152)
+[20Mar2025 19:48:19.655] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:55)
+[20Mar2025 19:48:19.655] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:101)
+[20Mar2025 19:48:19.655] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88)
+[20Mar2025 19:48:19.655] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[20Mar2025 19:48:19.655] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[20Mar2025 19:48:19.656] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[20Mar2025 19:48:19.656] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[20Mar2025 19:48:19.656] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[20Mar2025 19:48:19.656] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85)
+[20Mar2025 19:48:19.656] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:132)
+[20Mar2025 19:48:19.656] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	... 1 more

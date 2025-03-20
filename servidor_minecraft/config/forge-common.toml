@@ -5,3 +5,4 @@
 	#The modded world types are registry names which should include the registry namespace, such as 'examplemod:example_world_type'.
 	defaultWorldType = "default"
 
+default
