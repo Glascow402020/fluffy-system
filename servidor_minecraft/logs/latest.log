@@ -238,3 +238,8 @@
 [20Mar2025 19:48:19.656] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85)
 [20Mar2025 19:48:19.656] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:132)
 [20Mar2025 19:48:19.656] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	... 1 more
+[20Mar2025 20:00:54.106] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@706a14bb
+[20Mar2025 20:00:54.110] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: sebaguilaaa[/127.64.134.50:46349] logged in with entity id 351 at (226.73079319250164, 79.0, -148.77539405483762)
+[20Mar2025 20:00:54.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sebaguilaaa joined the game
+[20Mar2025 20:01:14.455] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: sebaguilaaa lost connection: Disconnected
+[20Mar2025 20:01:14.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sebaguilaaa left the game
