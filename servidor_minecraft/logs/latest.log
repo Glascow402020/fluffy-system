@@ -1,14 +1,66 @@
-[20Mar2025 20:36:17.203] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[20Mar2025 20:36:17.206] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.26 by Ubuntu
-[20Mar2025 20:36:17.496] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[20Mar2025 20:36:17.567] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/fluffy-system/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[20Mar2025 20:36:17.959] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[20Mar2025 20:36:18.047] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[20Mar2025 20:36:18.054] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[20Mar2025 20:36:19.097] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[20Mar2025 20:36:24.974] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[20Mar2025 20:36:25.054] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[20Mar2025 20:36:25.501] [main/FATAL] [net.minecraft.server.Main/]: Failed to start the minecraft server
+[21Mar2025 00:26:49.318] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[21Mar2025 00:26:49.327] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.26 by Ubuntu
+[21Mar2025 00:26:49.667] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[21Mar2025 00:26:49.745] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/fluffy-system/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[21Mar2025 00:26:50.206] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[21Mar2025 00:26:50.296] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[21Mar2025 00:26:50.304] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[21Mar2025 00:26:50.311] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[21Mar2025 00:26:50.317] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[21Mar2025 00:26:51.365] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[21Mar2025 00:26:56.654] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[21Mar2025 00:26:56.731] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[21Mar2025 00:26:58.812] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/fluffy-system/servidor_minecraft/config/cosmeticarmorreworked-common.toml is not correct. Correcting
+[21Mar2025 00:26:58.817] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.818] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common.CosArmorKeepThroughDeath was corrected from null to its default, false. 
+[21Mar2025 00:26:58.819] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common.CosArmorDisableRecipeBook was corrected from null to its default, false. 
+[21Mar2025 00:26:58.820] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common.CosArmorDisableCosHatCommand was corrected from null to its default, false. 
+[21Mar2025 00:26:58.828] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/fluffy-system/servidor_minecraft/config/cgm-common.toml is not correct. Correcting
+[21Mar2025 00:26:58.829] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.829] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.832] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.enableGunGriefing was corrected from null to its default, true. 
+[21Mar2025 00:26:58.832] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.growBoundingBoxAmount was corrected from null to its default, 0.3. 
+[21Mar2025 00:26:58.833] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.enableHeadShots was corrected from null to its default, true. 
+[21Mar2025 00:26:58.833] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.headShotDamageMultiplier was corrected from null to its default, 1.25. 
+[21Mar2025 00:26:58.838] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.criticalDamageMultiplier was corrected from null to its default, 1.5. 
+[21Mar2025 00:26:58.838] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.ignoreLeaves was corrected from null to its default, true. 
+[21Mar2025 00:26:58.838] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.enableKnockback was corrected from null to its default, true. 
+[21Mar2025 00:26:58.839] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.knockbackStrength was corrected from null to its default, 0.15. 
+[21Mar2025 00:26:58.839] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.improvedHitboxes was corrected from null to its default, false. 
+[21Mar2025 00:26:58.839] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.network was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.840] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.network.projectileTrackingRange was corrected from null to its default, 200.0. 
+[21Mar2025 00:26:58.840] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.840] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.enabled was corrected from null to its default, true. 
+[21Mar2025 00:26:58.841] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.angerHostileMobs was corrected from null to its default, true. 
+[21Mar2025 00:26:58.844] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.unsilencedRange was corrected from null to its default, 20.0. 
+[21Mar2025 00:26:58.844] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.exemptMobs was corrected from null to its default, []. 
+[21Mar2025 00:26:58.845] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.missiles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.845] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.missiles.explosionRadius was corrected from null to its default, 5.0. 
+[21Mar2025 00:26:58.845] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.grenades was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.846] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.grenades.explosionRadius was corrected from null to its default, 5.0. 
+[21Mar2025 00:26:58.846] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.846] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.847] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.850] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.radius was corrected from null to its default, 15.0. 
+[21Mar2025 00:26:58.850] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.durationMax was corrected from null to its default, 220. 
+[21Mar2025 00:26:58.850] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.durationMin was corrected from null to its default, 10. 
+[21Mar2025 00:26:58.851] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.angleEffect was corrected from null to its default, 170.0. 
+[21Mar2025 00:26:58.851] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.angleAttenuationMax was corrected from null to its default, 0.75. 
+[21Mar2025 00:26:58.851] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.raytraceOpaqueBlocks was corrected from null to its default, true. 
+[21Mar2025 00:26:58.852] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.blindMobs was corrected from null to its default, true. 
+[21Mar2025 00:26:58.852] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.852] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.853] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.radius was corrected from null to its default, 15.0. 
+[21Mar2025 00:26:58.856] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.durationMax was corrected from null to its default, 280. 
+[21Mar2025 00:26:58.856] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.durationMin was corrected from null to its default, 100. 
+[21Mar2025 00:26:58.856] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.angleEffect was corrected from null to its default, 360.0. 
+[21Mar2025 00:26:58.857] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.angleAttenuationMax was corrected from null to its default, 0.75. 
+[21Mar2025 00:26:58.857] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.raytraceOpaqueBlocks was corrected from null to its default, false. 
+[21Mar2025 00:26:58.857] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.panicMobs was corrected from null to its default, true. 
+[21Mar2025 00:26:58.858] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.projectile_spread was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Mar2025 00:26:58.858] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.projectile_spread.spreadThreshold was corrected from null to its default, 300. 
+[21Mar2025 00:26:58.858] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.projectile_spread.maxCount was corrected from null to its default, 10. 
+[21Mar2025 00:26:58.902] [main/FATAL] [net.minecraft.server.Main/]: Failed to start the minecraft server
 net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-common.toml of type COMMON for modid forge
 	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:47) ~[forge:?]
 	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:90) ~[forge:?]
